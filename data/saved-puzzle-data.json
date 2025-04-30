@@ -1,0 +1,224 @@
+[
+  {
+    "id": 1,
+    "name": "P001",
+    "type": "passphrase",
+    "initialMessage": "//SYSTEM ALERT: INTAKE OFFLINE\n\n//DIAGNOSTIC: The reactor’s intake system is blocked because it can’t identify the main pollutant it’s supposed to capture. The sensors are confused. You need to figure out what the reactor needs to capture.\n\n//ACTION REQUIRED: There is a hidden message for you that can help you.",
+    "passphrase": "CARBON FOOTPRINT",
+    "hints": [
+      "There are clues in the letter look carefully.",
+      "There is something in the room that help is see things bigger.",
+      "The letter has the answer in it, look at the icons."
+    ],
+    "successMessage": "//SYSTEM: You got it! You have identified the invisible mark: the carbon footprint. This is the total amount of greenhouse gases; like carbon dioxide, methane, and nitrous oxide emitted by a person or organization. It’s measured in kilograms, and by tracking this, we can see who the biggest contributors are and how our actions impact the planet."
+  },
+  {
+    "id": 2,
+    "name": "P002",
+    "type": "sorting",
+    "initialMessage": "//SYSTEM ALERT: SORTING ALGORITHMS OFFLINE\n\n//DIAGNOSTIC: The molecular disassembly chamber is malfunctioning; the lasers can't target the CO2 to decompose if it doesn't know the sources of the CO2. To calibrate the laser system, you must identify the hidden costs different categories have in our environment.\n\n//ACTION REQUIRED: Sort the following molecular compounds into their correct categories to restore automated classification.\n",
+    "hints": [
+      "Clothes: When you wash your clothes there is something that can go into the ocean and affect the animals.",
+      "Food: The animals that we eat for our diet need a place where to live, what cost it can have?",
+      "Transportation: In order to move what source of energy do you need?"
+    ],
+    "items": [
+      {
+        "id": "Toxic",
+        "name": "Toxic Chemicals",
+        "category": ""
+      },
+      {
+        "id": "H20",
+        "name": "Water Use",
+        "category": ""
+      },
+      {
+        "id": "Cooling",
+        "name": "Water Cooling",
+        "category": ""
+      },
+      {
+        "id": "FF",
+        "name": "Fossil Fuel",
+        "category": ""
+      },
+      {
+        "id": "Deforest",
+        "name": "Deforestation",
+        "category": ""
+      },
+      {
+        "id": "Microplastic",
+        "name": "Microplastic Pollution",
+        "category": ""
+      },
+      {
+        "id": "Methane",
+        "name": "Methane Emissions"
+      },
+      {
+        "id": "Mining",
+        "name": "Mining Extraction"
+      },
+      {
+        "id": "Land",
+        "name": "Land Use"
+      },
+      {
+        "id": "Biodiversity",
+        "name": "Biodiversity Loss"
+      },
+      {
+        "id": "Ecological",
+        "name": "Ecological Waste"
+      }
+    ],
+    "categories": [
+      "Food",
+      "Clothing",
+      "Technology Services",
+      "Transportation"
+    ],
+    "solution": {
+      "Input Gas": [
+        "CO2",
+        "CH4",
+        "C2H6"
+      ],
+      "Product Gas": [
+        "O2"
+      ],
+      "Catalyst": [
+        "H2O",
+        "N2"
+      ],
+      "Transportation": [
+        "FF",
+        "Deforest",
+        "Biodiversity",
+        "Microplastic"
+      ],
+      "Food": [
+        "Toxic",
+        "Land",
+        "Ecological"
+      ],
+      "Clothing": [
+        "H20",
+        "Mining",
+        "Biodiversity"
+      ],
+      "Technology Services": [
+        "Cooling",
+        "FF",
+        "Methane"
+      ]
+    },
+    "successMessage": "//SYSTEM: You nailed it! Now the lasers know where to point. Our daily actions and choices impact the world. Every sector has hidden costs that we sometimes can not see but we can help reduce with small actions. For example, we can buy food grown locally, buy second-hand clothes, use different types of transportation, like walking or riding a bicycle. \n\nDid you know that one-third of all food produced is wasted?  Every year, wasted food in the UK represents 14 million tonnes of carbon dioxide emissions. In total, these greenhouse gas emissions are the same as those created by 7 million cars each year."
+  },
+  {
+    "id": 3,
+    "name": "P003",
+    "type": "passphrase",
+    "initialMessage": "//SYSTEM ALERT: LASER ALIGNMENTS OFFLINE\n\n//DIAGNOSTIC: At the power plant control room, there’s an energy leak happening because some machines are still drawing power even though they're not running properly.\n\n//ACTION REQUIRED: Students have to spot the machines that are leaking phantom energy and identify the cause.",
+    "passphrase": "PASSWORD",
+    "hints": [
+      "Look for machines that are on but not working.",
+      "Tiny lights and screens are clues!",
+      "No Hint."
+    ],
+    "successMessage": "//SYSTEM: Great job finding the leaks! This hidden waste of energy is called Phantom Power (or Standby Power). Even when machines seem 'off,' they can still quietly drain energy unless fully unplugged or switched off."
+  },
+  {
+    "id": 4,
+    "name": "P004",
+    "type": "passphrase",
+    "initialMessage": "//SYSTEM ALERT: Nuclear Energy Core offline.\n\n//DIAGNOSTIC: The recycling center's sorting machine is broken!\nYou need to manually sort the trash into the correct bins before the pile overflows.\n\n\n//ACTION REQUIRED: Match each item to the right recycling bin. Act fast — the planet is counting on you!",
+    "passphrase": "PASSWORD",
+    "hints": [
+      "If you can eat it, it belongs to nature.",
+      "If it plugs in or uses batteries, it's special waste.",
+      "Shiny and metallic? There's a bin for that too."
+    ],
+    "successMessage": "//SYSTEM: Great job! The recycling center is back on track! Remember, sorting waste correctly reduces pollution, saves energy, and gives new life to old items. Every correctly recycled object keeps our planet cleaner and greener. "
+  },
+  {
+    "id": 5,
+    "name": "P005",
+    "type": "passphrase",
+    "initialMessage": "//SYSTEM ALERT: Isotopic Reformation chamber malfunction.\n\n//DIAGNOSTIC: Welcome delegates. Following the summit, your team must identify key national challenges and align with global solutions. \n\n//ACTION REQUIRED: Decode the final action phrase to complete your mission!",
+    "passphrase": "KEEP 1.5 ALIVE",
+    "hints": [
+      "Each country's strengths are visible — but its problems are hidden in plain sight.",
+      "Only one problem card truly fits each country’s hidden challenge. Don’t be fooled by surface similarities.",
+      "If the letters don’t make sense, your match may be wrong. The correct alignment reveals the true message."
+    ],
+    "successMessage": "//SYSTEM: Congratulations, delegates! You have uncovered the summit's call to action: KEEP 1.5 ALIVE. Your teamwork has shaped a more sustainable future!"
+  },
+  {
+    "id": 6,
+    "name": "P006",
+    "type": "passphrase",
+    "initialMessage": "//SYSTEM ALERT: Cryogenic Water Recycling system failure.\n\n//DIAGNOSTIC: From heaven's tears to your daily needs, Some choices drain more than others indeed. To unlock the secrets that I withhold, Arrange nature's thirst from large to small.\n\n//ACTION REQUIRED: Enter the right order of cards in this format ITEM1-ITEM2-ITEM3...",
+    "passphrase": "BEEF-BURGER-COFFEE-MILK-TOAST-TEA",
+    "hints": [
+      "You can find the resource in ice cubes, steam, and clouds.",
+      "The color wheel can help.",
+      "Look for colors across cards - they might have values."
+    ],
+    "successMessage": "//SYSTEM: Well done! You’ve uncovered the hidden water costs behind everyday items. By ordering these cards correctly, you’ve revealed how much unseen water fuels our daily lives – a critical step toward smarter, more sustainable choices."
+  },
+  {
+    "id": 7,
+    "name": "P007",
+    "type": "passphrase",
+    "initialMessage": "//SYSTEM ALERT: Synthetic Product Breakdown unit malfunction.\n\n//DIAGNOSTIC: There’s more to the branded products on the table than meets the eye. Some of them are lying and has hidden messaging.\n\n//ACTION REQUIRED: Enter the right message that exposes these products.",
+    "passphrase": "140SYNTHETICHARMFUL",
+    "hints": [
+      "What's beneath the surface? Check where secrets hide when the obvious isn't enough.",
+      "Only if you shine where the ink won’t lie.",
+      "The lines beneath letters aren’t just for emphasis."
+    ],
+    "successMessage": "//SYSTEM: Brilliant work! You’ve peeled back the layers of greenwashing, exposing how vague claims and eco-labels often mask unsustainable truths. By spotting misleading tactics like deceptive imagery or selective data, you’re now equipped to hold brands accountable and champion genuine sustainability."
+  },
+  {
+    "id": 8,
+    "name": "P008",
+    "type": "passphrase",
+    "initialMessage": "//SYSTEM ALERT: Closed-loop Energy Distribution network failure.\n\n//DIAGNOSTIC: The generator is down and must be rebooted! You need to gain access to the central control server to fix the generator. The engineers have gone, but they left a note on the table.\n\n//ACTION REQUIRED: Decode the message and enter the words with the \"=\" in between.",
+    "passphrase": "PROMPT=WATER",
+    "hints": [
+      "Look beyond the words.",
+      "At the end.",
+      "What a beautiful blue."
+    ],
+    "successMessage": "//SYSTEM: Congratulations! You successfuly rebooted the generator. Remember, AI is very useful, but it uses a lot of energy which we can't always see. Everytime you ask AI a question, it uses 2 liters of water."
+  },
+  {
+    "id": 9,
+    "name": "Waste Reclamation & Reactor Cooling",
+    "type": "passphrase",
+    "initialMessage": "//SYSTEM ALERT: Waste Reclamation & Reactor Cooling system failure.\n\n//DIAGNOSTIC: Graphene-based thermal recapture system overheating. Water purification units offline.\n\n//ACTION REQUIRED: Enter thermal regulation sequence to restore heat dissipation.",
+    "passphrase": "PASSWORD",
+    "hints": [
+      "The sequence relates to the material used in the thermal recapture system and its thermal conductivity measured in W/mK.",
+      "The material used is a form of carbon arranged in a single layer of atoms in a hexagonal lattice.",
+      "The sequence format is [MATERIAL]-K[CONDUCTIVITY] with the material in all capital letters."
+    ],
+    "successMessage": "//SYSTEM: Waste Reclamation & Reactor Cooling system restored. Thermal recapture functioning normally. Water purification units online."
+  },
+  {
+    "id": 10,
+    "name": "AI-Controlled Ecosystem Balance",
+    "type": "passphrase",
+    "initialMessage": "//SYSTEM ALERT: AI-Controlled Ecosystem Balance system offline.\n\n//DIAGNOSTIC: Central AI core processing error. Environmental monitoring interrupted.\n\n//ACTION REQUIRED: Enter AI reboot sequence with administrator credentials to restore ecosystem monitoring.",
+    "passphrase": "PASSWORD",
+    "hints": [
+      "The sequence combines the access level required and the AI's designation along with its version number.",
+      "The AI is named after the ancient Greek goddess of the Earth, representing its role in maintaining ecosystem balance.",
+      "The sequence format is [ACCESS]-[NAME][VERSION] with access and name in all capital letters."
+    ],
+    "successMessage": "//SYSTEM: AI-Controlled Ecosystem Balance system restored. Central AI core online. Environmental monitoring resumed.\n\n//FINAL STATUS: All reactor systems operational. Nuclear Recycling Reactor functioning at optimal capacity. Carbon neutrality achieved. Congratulations, team!"
+  }
+]
